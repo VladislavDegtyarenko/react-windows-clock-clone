@@ -1,0 +1,16 @@
+.alarm-repeat-days {
+   list-style-type: none;
+   display: flex;
+   font-size: 0.65em;
+   color: var(--colorNeutralForeground3);
+   margin-top: 0.5em;
+}
+
+.alarm-repeat-days > li:not(:last-child) {
+   margin-right: 1.2em;
+}
+
+.read-only {
+   user-select: none;
+   pointer-events: none;
+}

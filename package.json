@@ -1,0 +1,22 @@
+{
+   "name": "react-countdown-timer",
+   "private": true,
+   "version": "0.0.0",
+   "scripts": {
+      "dev": "vite --host",
+      "build": "vite build",
+      "preview": "vite preview --host"
+   },
+   "dependencies": {
+      "@fluentui/react-components": "^9.9.1",
+      "framer-motion": "^8.4.3",
+      "nanoid": "^4.0.0",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "react-router-dom": "^6.6.2"
+   },
+   "devDependencies": {
+      "@vitejs/plugin-react": "^1.3.0",
+      "vite": "^2.9.15"
+   }
+}

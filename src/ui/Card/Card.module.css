@@ -1,0 +1,20 @@
+.card {
+   padding: 1em;
+   font-size: 1em;
+   border: solid var(--strokeWidthThin) transparent;
+   border-radius: var(--borderRadiusXLarge);
+   background-color: var(--colorNeutralBackground3Hover);
+   box-shadow: var(--shadow4);
+   transform: translateY(0);
+   will-change: transform;
+   transition: all var(--durationFast) var(--curveEasyEase);
+}
+
+@media screen and (hover: hover) {
+   .card--hover:hover {
+      border: solid var(--strokeWidthThin) var(--colorNeutralStroke3);
+      background-color: var(--colorNeutralBackground3Selected);
+      box-shadow: var(--shadow8);
+      transform: translateY(calc(0.25em * -1));
+   }
+}

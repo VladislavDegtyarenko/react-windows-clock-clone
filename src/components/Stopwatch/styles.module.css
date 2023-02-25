@@ -1,0 +1,110 @@
+.stopwatch {
+   height: 100%;
+   width: 40em;
+   max-width: 100%;
+   margin: 0 auto;
+   overflow: hidden;
+}
+
+.stopwatch__main {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 65%;
+}
+
+.stopwatch__inner {
+   width: min-content;
+}
+
+.table {
+   height: 35%;
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+}
+
+.row {
+   display: grid;
+   gap: 0.25em;
+   grid-template-columns: 25% 35% 35%;
+   font-weight: 600;
+   padding: 0.75em 0;
+}
+
+.table--header {
+   border-bottom: solid 0.1em var(--colorNeutralBackgroundInvertedDisabled);
+}
+
+.table--content {
+   overflow: auto;
+   display: flex;
+   flex-direction: column-reverse;
+}
+
+.record {
+   display: inline-block;
+   margin-left: 1em;
+}
+
+@media screen and (max-width: 479px) {
+   .table {
+      font-size: 0.875em;
+   }
+   .record {
+      margin-left: 0.5em;
+   }
+}
+
+.stopwatch header {
+   display: flex;
+   justify-content: end;
+   position: relative;
+   top: 1.5em;
+   z-index: 1;
+}
+
+.stopwatch__digits {
+   position: relative;
+   font-size: 16em;
+   line-height: 1;
+}
+
+.stopwatch__digits > * {
+   font-weight: 400;
+}
+
+.stopwatch__controls {
+   position: relative;
+   font-size: 2em !important;
+   margin-top: 1.5em;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+@media screen and (max-width: 479px) {
+   .stopwatch__controls {
+      font-size: 2.5em !important;
+   }
+}
+
+.stopwatch__controls > button {
+   min-width: unset;
+   max-width: unset;
+   font-size: 1em !important;
+   width: 2em;
+   height: 2em;
+}
+
+.stopwatch__controls span,
+.stopwatch__controls svg {
+   width: 1em;
+   height: 1em;
+   font-size: 1em;
+}
+
+.stopwatch__controls > button:not(:last-child) {
+   margin-right: 0.75em;
+}

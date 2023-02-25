@@ -1,0 +1,47 @@
+.modal {
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   background-color: #000000aa;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 1em;
+   z-index: 1;
+}
+
+.modal__inner {
+   padding: 1.25em;
+   border-radius: var(--borderRadiusXLarge);
+   background-color: var(--colorNeutralBackground3Hover);
+   box-shadow: var(--shadow4);
+   max-width: 100%;
+}
+
+.modal header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.modal footer {
+   margin-top: 2em;
+   display: flex;
+   gap: 0.5em;
+}
+
+.modal footer button {
+   flex-grow: 1;
+   padding: 0.5em;
+}
+
+.modal-delete {
+   color: lightcoral !important;
+
+}
+
+.modal main > *:not(:last-child) {
+   margin-bottom: 1em;
+}

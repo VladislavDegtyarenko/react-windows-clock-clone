@@ -1,0 +1,13 @@
+.TimeInputMenu {
+   padding: 2.5em 0;
+   margin-top: 1em;
+   user-select: none;
+}
+
+.TimeInputMenu__inner {
+   background-color: var(--colorNeutralBackground2);
+   border-radius: var(--borderRadiusLarge);
+   padding: 0.25em;
+   display: flex;
+   justify-content: center;
+}

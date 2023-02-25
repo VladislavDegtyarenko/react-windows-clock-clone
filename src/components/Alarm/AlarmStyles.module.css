@@ -1,0 +1,48 @@
+.alarm-card {
+   font-size: 1em;
+   display: grid;
+   grid-gap: 0.75em;
+   position: relative;
+}
+
+.alarm-card header {
+   display: flex;
+   justify-content: space-between;
+   align-items: start;
+}
+
+.alarm-card__time span {
+   font-size: 0.35em;
+   line-height: 1;
+}
+
+.alarm-card__time {
+   text-transform: uppercase;
+
+   font-size: 3em;
+   line-height: 0.75;
+   font-weight: 500;
+   margin-right: 0.1em;
+}
+
+.alarm-card__name {
+   font-size: 1.25em;
+   font-weight: 600;
+}
+
+.alarm-card__name--disabled {
+   color: var(--colorNeutralForeground4);
+}
+
+.alarm-card__switch {
+   position: relative;
+   top: -0.5em;
+}
+
+.edit .alarm-card__time {
+   color: var(--colorNeutralForegroundDisabled);
+}
+
+.edit .alarm-card__name {
+   color: var(--colorNeutralForegroundDisabled);
+}

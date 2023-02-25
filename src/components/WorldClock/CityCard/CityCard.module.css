@@ -1,0 +1,69 @@
+.card {
+   display: flex;
+   align-items: center;
+   color: var(--colorNeutralForeground1);
+   background-color: var(--colorNeutralBackground3Hover);
+   border: solid var(--strokeWidthThin) transparent;
+   border-radius: 0.25em;
+   padding: 1em;
+}
+
+@media screen and (hover: hover) {
+   .card:hover {
+      border: solid var(--strokeWidthThin) var(--colorNeutralStroke3);
+      background-color: var(--colorNeutralBackground3Selected);
+   }
+}
+
+.card:not(:last-child) {
+   margin-bottom: 0.5em;
+}
+
+.cardIcon {
+   --size: 1.25em;
+   width: var(--size);
+   height: var(--size);
+   color: inherit;
+   flex-shrink: 0;
+   margin-right: 1em;
+}
+
+.cardIcon svg {
+   width: 100%;
+   height: 100%;
+   object-fit: contain;
+}
+
+.cardTime {
+   flex-shrink: 0;
+   margin-right: 2em;
+   min-width: 5em;
+   text-align: right;
+}
+
+.cardTime span {
+   font-weight: 700;
+   font-size: 1.25em;
+   margin-right: 0.25em;
+}
+
+.cardDetails {
+   font-size: 0.8em;
+   font-weight: 300;
+   flex-grow: 1;
+   /* white-space: nowrap; */
+}
+
+.cardDetails > div:not(:last-child) {
+   margin-bottom: 0.25em;
+}
+
+@media screen and (min-width: 576px) {
+   .cardDetails {
+      display: flex;
+   }
+   .cardDetails > * {
+      width: 50%;
+      flex-shrink: 0;
+   }
+}

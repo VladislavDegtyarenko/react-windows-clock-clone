@@ -1,0 +1,23 @@
+.customButton {
+   /* width: 1.5em !important;
+   height: 1.5em !important; */
+   min-width: unset !important;
+   max-width: unset !important;
+   padding: 0.5em !important;
+   font-size: 1em !important;
+   line-height: 1;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.customButton span {
+   width: 1em;
+   height: 1em;
+   font-size: 1em;
+}
+
+.customButton svg {
+   width: 1em;
+   height: 1em;
+}

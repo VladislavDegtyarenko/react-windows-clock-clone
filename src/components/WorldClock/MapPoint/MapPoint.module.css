@@ -1,0 +1,46 @@
+.mapPoint {
+   font-size: 0.8em;
+   width: 0em;
+   height: 0em;
+   position: absolute;
+}
+
+.mapPoint svg {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 1em;
+   height: 1em;
+   object-fit: contain;
+}
+
+.mapPointText {
+   height: 1em;
+
+   position: absolute;
+   left: 100%;
+   bottom: 50%;
+   margin-left: 1.2em;
+   white-space: nowrap;
+   display: flex;
+   flex-direction: column;
+}
+
+.mapPoint h4 {
+   font-size: 0.9em;
+   font-weight: 300;
+   margin: 0;
+   line-height: 1;
+}
+
+.mapPoint span {
+   font-size: 0.8em;
+   line-height: 1;
+   margin-top: 0.5em;
+}
+
+@media screen and (max-width: 767px) {
+   .mapPointText {
+      display: none;
+   }
+}

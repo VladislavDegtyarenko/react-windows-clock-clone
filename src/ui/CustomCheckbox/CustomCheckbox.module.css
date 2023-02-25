@@ -1,0 +1,8 @@
+.checkbox {
+   display: flex;
+   gap: 0.5em;
+}
+
+.checkbox label {
+   padding-left: 0;
+}

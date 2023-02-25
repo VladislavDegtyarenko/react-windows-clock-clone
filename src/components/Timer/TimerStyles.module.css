@@ -1,0 +1,132 @@
+.timer-card {
+   /* width: 20em;
+   height: 24em; */
+}
+
+.timer-card header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   min-height: 1.15em;
+}
+
+.timer-card__title {
+   font-size: 1.15em;
+   line-height: 1;
+   margin-top: 0;
+   margin-bottom: 0;
+   margin-right: auto;
+   user-select: none;
+}
+
+.timer-card__main {
+   will-change: transform;
+}
+
+.timer-card__info {
+   display: flex;
+   justify-content: center;
+   position: relative;
+   font-size: 5em;
+   margin-top: 0.1em;
+}
+
+.timer-card__controls {
+   margin-top: var(--spacingVerticalM);
+   display: flex;
+   justify-content: center;
+}
+
+.timer-card__controls button {
+   font-size: 2em;
+   width: 1em;
+   height: 1em;
+   max-width: unset;
+   min-width: unset;
+}
+
+.timer-card__controls span {
+   display: flex;
+   font-size: 0.7em;
+   width: 0.75em;
+   height: 0.75em;
+}
+
+.timer-card__controls span svg {
+   width: 100%;
+   height: 100%;
+}
+
+.timer-card__controls > button:not(:last-child) {
+   margin-right: 0.5em;
+}
+
+.timer-card__btn {
+   color: var(--colorNeutralForeground1);
+   background-color: transparent;
+   border: solid 0.1em var(--colorNeutralForeground1);
+   border-radius: 0.25em;
+   padding: 0.25em 0.5em;
+   font-size: 1em;
+   min-width: 4em;
+}
+
+.timer-card__btn:not(:last-child) {
+   margin-right: var(--spacingVerticalM);
+}
+
+.timer-card__circle {
+   --timerCircleSize: 3.65em;
+   --stroke-width: 0.09em;
+   width: var(--timerCircleSize);
+   height: var(--timerCircleSize);
+   position: relative;
+   padding: 0 var(--spacingVerticalXXXL);
+   fill: none;
+   stroke: none;
+   padding: 0;
+   --timerCircleSize: 2.75em;
+}
+
+.timer-card__circle_elapsed {
+   stroke-width: var(--stroke-width);
+
+   stroke: var(--colorNeutralForegroundDisabled);
+   stroke: var(--colorNeutralBackground1Hover);
+}
+.timer-card__circle_remaining {
+   stroke-width: var(--stroke-width);
+   stroke-linecap: round;
+   transform: rotate(90deg) scaleY(-1);
+   transform-origin: center;
+   transition: 0.1s linear all;
+   fill-rule: nonzero;
+   stroke: currentColor;
+   stroke: var(--colorBrandBackground);
+}
+
+.timer-card__digits {
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   margin: 0 auto;
+   width: 100%;
+}
+
+.TimerModalContent h3 {
+   font-size: 1.25em;
+}
+
+.edit .timer-card__title {
+   color: var(--colorNeutralForegroundDisabled);
+}
+
+.edit .timer-card__digits {
+   color: var(--colorNeutralForegroundDisabled);
+}
+
+@media screen and (max-width: 479px) {
+   .timer-card__controls > button {
+      font-size: 3em;
+   }
+}

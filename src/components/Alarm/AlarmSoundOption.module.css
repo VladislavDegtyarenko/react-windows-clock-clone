@@ -1,0 +1,46 @@
+.option {
+   display: flex !important;
+   align-items: center;
+   position: relative;
+   padding: 0 !important;
+   --border-radius: 0.5em;
+   border-radius: var(--border-radius) !important;
+}
+
+.option > span[aria-hidden="true"] {
+   opacity: 0;
+   width: 0;
+   height: 0;
+   position: absolute;
+}
+
+.option[aria-selected="true"] {
+   background-color: #66666666;
+}
+
+.option:hover {
+   background-color: #66666633;
+}
+
+.play {
+   background-color: transparent;
+   width: 3.5em;
+   height: 3.5em;
+   margin-right: 0.5em;
+   font-size: 1em;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 0;
+   border-radius: var(--border-radius);
+   border: none;
+   cursor: pointer;
+}
+
+.play:hover {
+   background-color: #66666699;
+}
+
+.play svg {
+   color: #fff;
+}

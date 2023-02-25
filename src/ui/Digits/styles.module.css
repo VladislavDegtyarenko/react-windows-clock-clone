@@ -1,0 +1,37 @@
+.digits {
+   font-size: 0.425em;
+   line-height: 1;
+   text-align: center;
+   display: flex;
+   align-items: flex-end;
+   justify-content: center;
+   color: var(--colorNeutralForeground1);
+   user-select: none;
+}
+
+.digits--not-running {
+   color: var(--colorNeutralForeground2);
+}
+.digits > span {
+   position: relative;
+}
+
+.digits > span:last-child {
+   opacity: 0.5;
+   font-size: 0.675em;
+}
+
+.helper {
+   font-size: 0.25em;
+   position: absolute;
+   width: 100%;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 1em;
+   top: 100%;
+   left: 0;
+}
+.helper span {
+   display: flex;
+   justify-content: center;
+}

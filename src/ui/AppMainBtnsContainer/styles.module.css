@@ -1,0 +1,16 @@
+.app-main-btns-container {
+   position: absolute;
+   bottom: 0;
+   right: 0;
+   padding: 0.5em;
+   margin: 1em;
+   border-radius: var(--borderRadiusXLarge);
+   border: solid var(--strokeWidthThin) var(--colorNeutralStroke3);
+   box-shadow: var(--shadow8);
+   background-color: var(--colorNeutralBackground3Selected);
+   font-size: 0.75em;
+}
+
+.app-main-btns-container button:not(:last-child) {
+   margin-right: 0.25em;
+}

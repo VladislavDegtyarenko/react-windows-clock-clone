@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 320.2 320.2">
+<defs>
+<style>.cls-1{isolation:isolate;}.cls-2,.cls-5{mix-blend-mode:multiply;}.cls-2{opacity:0.8;}.cls-3{fill:#4d4d4e;}.cls-4{fill:url(#linear-gradient);}.cls-5{opacity:0.35;}.cls-6{fill:url(#linear-gradient-2);}.cls-7{fill:#45494f;}.cls-8{fill:#d94027;}.cls-9{fill:#1e1f20;}</style>
+<linearGradient id="linear-gradient" x1="72.36" y1="52.53" x2="231.05" y2="327.4" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#8c929a"/><stop offset="1" stop-color="#65737d"/></linearGradient>
+<linearGradient id="linear-gradient-2" x1="102.61" y1="63.67" x2="211.63" y2="252.49" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#c3c8cb"/></linearGradient>
+</defs>
+
+<g class="cls-1"><g id="Layer_1" data-name="Layer 1"><g id="Button">
+
+<path class="cls-3" d="M269,79,240.4,50.4l15-14.9a4.8,4.8,0,0,1,7,0L284,57a5,5,0,0,1,0,7Z" transform="translate(-2.9 -1.9)"/></g><g id="Clock_Form" data-name="Clock Form"><path class="cls-4" d="M283.9,295H36.1A12.1,12.1,0,0,1,24,282.9V159A136,136,0,0,1,160,23h0A136,136,0,0,1,296,159V282.9A12.1,12.1,0,0,1,283.9,295Z" transform="translate(-2.9 -1.9)"/></g><g id="Main"><rect class="cls-6" x="48.1" y="49.1" width="218" height="218" rx="109"/></g><path class="cls-7" d="M120.8,106.8h0a9.1,9.1,0,0,1,9.1,9.1v59.5a0,0,0,0,1,0,0H111.7a0,0,0,0,1,0,0V115.9A9.1,9.1,0,0,1,120.8,106.8Z" transform="translate(-60.8 189.7) rotate(-65.2)"/><path class="cls-7" d="M197.4,81.8h0a9.1,9.1,0,0,1,9.1,9.1V161a0,0,0,0,1,0,0H188.4a0,0,0,0,1,0,0V90.9A9.1,9.1,0,0,1,197.4,81.8Z" transform="translate(140.8 -106) rotate(45)"/><path class="cls-8" d="M160.5,172h0a7.5,7.5,0,0,1,7.5,7.5V252a0,0,0,0,1,0,0H153a0,0,0,0,1,0,0V179.5a7.5,7.5,0,0,1,7.5-7.5Z" transform="translate(318.1 422.1) rotate(-180)"/><rect id="center" class="cls-9" x="138.1" y="138.1" width="38" height="38" rx="19"/></g></g></svg>

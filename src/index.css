@@ -1,0 +1,46 @@
+body {
+   /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body,
+#root {
+   width: 100%;
+   height: 100%;
+   overflow: hidden;
+}
+
+* {
+   margin: 0;
+
+   padding: 0;
+   box-sizing: border-box;
+}
+
+#root > div {
+   font-size: 1em !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+   width: 0.5em;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+   background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+   background: var(--colorNeutralForeground4);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+   background: var(--colorNeutralForeground3);
+}

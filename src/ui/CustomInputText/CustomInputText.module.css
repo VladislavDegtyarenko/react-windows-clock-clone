@@ -1,0 +1,33 @@
+.input-container {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   gap: 0.5em;
+   font-size: 1em;
+}
+
+.input-container__input {
+   flex-grow: 1;
+   font-size: 1em !important;
+   height: 2em;
+   padding: 0 0.5em !important;
+}
+
+.input-container__input input {
+   width: 100%;
+   height: 100%;
+   font-size: inherit;
+}
+
+.input-container__img {
+   width: 2em;
+   height: 2em;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.input-container__img svg {
+   width: 50%;
+   height: 50%;
+}
