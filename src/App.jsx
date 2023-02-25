@@ -47,11 +47,20 @@ function App() {
           <Suspense fallback={<Loading />}>
             <AnimatePresence mode="wait">
               <Routes location={location} key={location.pathname}>
-                <Route exact path="/" element={<TimerApp />} />
-                <Route path="/alarm" element={<AlarmApp />} />
-                <Route path="/stopwatch" element={<StopwatchApp />} />
-                <Route path="/worldclock" element={<WorldClockApp />} />
-                <Route path="/settings" element={<Settings />} />
+                <Route exact path="/react-windows-clock-clone/" element={<TimerApp />} />
+                <Route path="/react-windows-clock-clone/alarm" element={<AlarmApp />} />
+                <Route
+                  path="/react-windows-clock-clone/stopwatch"
+                  element={<StopwatchApp />}
+                />
+                <Route
+                  path="/react-windows-clock-clone/worldclock"
+                  element={<WorldClockApp />}
+                />
+                <Route
+                  path="/react-windows-clock-clone/settings"
+                  element={<Settings />}
+                />
               </Routes>
             </AnimatePresence>
           </Suspense>
